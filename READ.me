@@ -1,1 +1,65 @@
-fill stack docker cooking app
+- Plan meals quickly
+- Generate shopping lists
+- Track pantry items
+- Adjust recipes based on availability/diet
+- Stay organized over time
+
+## **Phase 1 — Core Build (Recipe Book + Meal Calendar)**
+
+Focus on **fast meal planning** and **storing recipes**.
+
+**Must-haves for this phase:**
+
+1. **Recipe Book**
+    - Add, edit, delete recipes
+    - Ingredients list for each recipe
+    - Steps for cooking (basic text is fine for now)
+    - Optional: Tag recipes (quick, freezer, vegetarian, etc.)
+2. **Meal Calendar**
+    - Weekly view (day-by-day meal slots)
+    - Add recipes to a specific day
+    - Simple drag-and-drop or “select date” assignment
+3. **Shopping List (basic)**
+    - Combine ingredients from all meals in the week into one list
+    - Manual check-off system (no store optimization yet)
+
+---
+
+## **Phase 2 — Mid-Level Upgrade**
+
+Once the basics work, layer in **useful automation**.
+
+- Portion scaling for recipes
+- Recipe substitutions (manual lookup list)
+- Nutrition info (basic API integration)
+- Dietary restriction filtering
+- Favorites / most-used meals
+- Pantry tracking (basic, no auto-depletion yet)
+- Meal prep checklist for the week
+- Cooking log (time taken, rating, notes)
+
+---
+
+## **Phase 3 — Advanced Features**
+
+This is where it gets **smart and integrated**.
+
+- Smart pantry depletion (ingredients auto-update when cooked)
+- Budget calculator
+- Seasonal ingredient suggestions
+- Barcode scanning for pantry items
+- Sync across devices
+- Store route optimization
+- AI-based meal suggestions
+
+---
+
+## **Tools**
+
+Right now you’ve got:
+
+1. **Retool** → For building quick UI prototypes
+2. **Material Theme Builder** → For styling
+3. **Backend Stack** → Python FastAPI (since you already use it)
+4. **Database** → PostgreSQL (recipes, pantry, shopping lists)
+5. **Auth** → Supabase Auth or Firebase Auth (quick setup)
