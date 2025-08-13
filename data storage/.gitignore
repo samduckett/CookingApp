@@ -1,0 +1,72 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Environment variables
+*.env
+
+# Logs and debug
+*.log
+*.sqlite3
+*.db
+*.pid
+*.seed
+*.cover
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Build / distribution
+build/
+dist/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# Unit test / pytest
+.pytest_cache/
+.cache/
+
+# Temporary files
+tmp/
+temp/
